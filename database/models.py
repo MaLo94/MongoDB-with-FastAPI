@@ -8,3 +8,5 @@ class Todo(BaseModel):
     is_deleted: bool = False
     updated_at: int = int(datetime.timestamp(datetime.now()))
     creation: int = int(datetime.timestamp(datetime.now()))
+    # updated_at: int 
+    # creation: int 

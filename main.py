@@ -14,6 +14,7 @@ async def get_all_todos():
 @router.post("/")
 async def create_task(new_task: Todo):
     try:
+        # print(new_task, '-------------', type(new_task))
         resp = collection.insert_one(dict(new_task))
         return {"status_code": 200, "id": str(resp.inserted_id)}
     except Exception as e:
