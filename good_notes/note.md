@@ -68,3 +68,4 @@ The idea is to divide the code in the future into Models, Controllers, and Servi
 I would like to know what you think about my solution. Are there any ways to improve it? Am I following the best practices? Can you identify any potential issues? Any suggestions are welcome. If you have another approach, feel free to share it.
 
 Thank you so much for reading
+check : [source](https://www.reddit.com/r/learnpython/comments/1cxl7pj/best_practices_for_connecting_mongodb_using_motor/)
